@@ -1,0 +1,103 @@
+body{
+    background-color: #000;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1280px;
+    max-height: 720px;  
+    margin: 100px auto;
+    margin-bottom: 30px;
+}
+
+header {
+    margin: 0 auto;
+}
+
+.logo { 
+    margin-top: 40px;
+    width: 229px;
+    height: 68px;
+}
+
+h1 {
+    margin-top: 75px;
+    width: 334px;
+    height: 42px;
+}
+
+.conteudo{
+    align-items: center;
+    background-color: #121214;
+    border-radius: 12px;
+    color: white;
+}
+
+.usuarios {
+    margin: 25px;
+    display: flex;
+    max-width: 700px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.icone {
+    width: 160px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.conta {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.conta:hover {
+    transform: scale(1.3);
+    transition-duration: 700ms;
+}
+
+figcaption {
+    margin-top: 10px;
+    color: #9C9C9C;
+}
+
+footer {
+    max-width: 572px ;
+    max-height: 100px;
+    margin-bottom: 65px;
+}
+
+#button {
+    width: 206px;
+    height: 60px;
+    border:2px solid #FFFFFF;
+    background-color: #121214;
+    color: white;
+    border-radius: 9px;
+    border-style: groove;
+    border-style:solid;
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
+#button:hover {
+    background-color: white;
+    color: #121214;
+}
+
+.boximage {
+    width: 160px;
+    overflow: hidden;
+    padding: 0;    
+}
+
+.boximage:hover {
+    border-radius: 9px;
+    border: 1px solid white;
+    box-sizing: content-box;
+    height: 158px;
+}
